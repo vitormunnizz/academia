@@ -1,0 +1,27 @@
+.nav_menu{
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+    border: .15rem solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav_menu img{
+    height: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_list{
+    display: flex;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.menu_link{
+    color: black;
+}

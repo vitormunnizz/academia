@@ -71,6 +71,10 @@ h1 {
     font-size: 2rem;
 }
 
+#container_plano_horario{
+    height: 85vh;
+}
+
 .caixas{
     margin: 2rem;
 }
@@ -118,3 +122,13 @@ h1 {
     padding-left: 1.25rem;
 }
 
+#container_contato{
+    padding-top: 2rem;
+    background-color: rgb(36, 34, 34);
+    color: antiquewhite;
+    height: 55vh;
+}
+
+#container_contato .texto{
+    margin-bottom: 1rem;
+}

@@ -1,10 +1,10 @@
 h1 {
     font-size: 2.1rem;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
 }
 
-.imagem {
+.imagem_historia {
     height: 20rem;
 }
 
@@ -17,9 +17,8 @@ h1 {
 }
 
 #container_historia {
-    font-size: 1rem;
     height: 85vh;
-    padding-top: 7rem; /* Compensa a altura do menu */
+    padding-top: 7rem;
 }
 
 #container_historia img {
@@ -27,5 +26,47 @@ h1 {
 }
 
 #container_estrutura{
-    height: 100vh;
+    height: 85vh;
+}
+
+.carrossel .imagem {
+    height: 27rem;
+}
+
+.carrossel{
+    margin-top: 1rem;
+    height: 28rem;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(36, 34, 34);
+    border: .25rem solid black;
+}
+
+.imagem.ativo{  
+    opacity: 100;
+    transition: opacity 2s ease;
+}
+
+.imagem{
+    margin: .5rem 22.5%;
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+}
+
+
+#butoes{
+    display: flex;
+    position: absolute;
+    gap: 42.75rem;
+    margin: 12.5rem 20rem;
+    z-index: 999;
+}
+
+#butoes button{
+    cursor: pointer;
+    padding: .75rem;
+    background-color: rgb(36, 34, 34);
+    color: aliceblue;
+    font-size: 2rem;
 }

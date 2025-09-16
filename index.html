@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Academia Maromba</title>
 </head>
 <body>
@@ -35,10 +36,9 @@
 
             <h1>Nossa História</h1>
             
+            <img class="imagem_historia"  src="img/fundador.png" alt="Instrutor da Thunder Gym">
+
             <div class="texto">
-
-                <img class="imagem"  src="img/fundador.png" alt="Instrutor da Thunder Gym">
-
                     
                 <p>A Thunder Gym não é apenas uma academia. É um lugar onde cada treino é uma explosão de energia, disciplina e superação. Fundada com a missão de transformar vidas através do movimento e da força, a Thunder Gym nasceu da paixão por esportes, bem-estar e performance. Aqui, acreditamos que cada pessoa tem dentro de si um potencial ilimitado, e nosso objetivo é ajudá-la a descobrir e desbloquear esse poder.</p>
 
@@ -55,17 +55,40 @@
 
             
         <div id="container_estrutura">
+            
             <h1>Estrutura</h1>
+            
             <p class="texto">Contamos com uma estrutura moderna, ampla e climatizada, equipada com aparelhos de última geração. 
-            Nossos espaços incluem sala de musculação, estúdio de dança, área para treinos funcionais, piscina semiolímpica e espaço de alongamento. 
-            Além disso, dispomos de vestiários confortáveis e estacionamento exclusivo para os alunos.</p>
+            Nossos espaços incluem sala de musculação, estúdio de dança, área para treinos funcionais, piscina semiolímpica e espaço de alongamento. Além disso, dispomos de vestiários confortáveis e estacionamento exclusivo para os alunos.</p>
+            
+            <div class="carrossel">
 
-            <img class="imagem" src="img/estrutura1.png" alt="">
+                    <img class="imagem ativo" src="img/estrutura1.png" alt="Imagem da estrutura da academia">    
+        
+                    <img class="imagem" src="img/estrutura1.png" alt="Imagem da estrutura da academia">    
+                
+            </div>
+    
+            <div id="butoes">
+                
+                <button id="back">
+                    <i class="fa-solid fa-angles-left"></i>
+                </button>
+
+                <button id="next">
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
+            
+            </div>
+        
         </div>
         
-        <div id="plano_horario">
+        <div id="container_plano_horario">
+            
             <h1>Plano e Horário</h1>
-            <p>Oferecemos diferentes planos para atender às suas necessidades:</p>
+            
+            <p class="texto">Oferecemos diferentes planos para atender às suas necessidades:</p>
+            
             <ul>
                 <li><strong>Plano Mensal:</strong> R$ 120,00</li>
                 <li><strong>Plano Trimestral:</strong> R$ 330,00</li>
@@ -82,5 +105,6 @@
             <p><strong>Endereço:</strong> Rua da Saúde, 123 - Centro, Sobral - CE</p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

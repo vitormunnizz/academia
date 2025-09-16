@@ -70,3 +70,51 @@ h1 {
     color: aliceblue;
     font-size: 2rem;
 }
+
+.caixas{
+    margin: 2rem;
+}
+
+.caixas_list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.caixas_item{
+    color: antiquewhite;
+    background-color: rgb(36, 34, 34);
+    border-radius: 2rem;
+    border: .25rem solid black;
+}
+
+.caixas_item h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.caixas_item h3{
+    font-size: 1.5rem;
+}
+
+.caixas_item p {
+    margin: .25rem 0rem;
+}
+
+.caixa-header{
+    border-radius: 2rem 2rem 0 0;
+    padding: 2rem;
+    color: black;
+    background-color: antiquewhite;
+    border-bottom: 0.25rem solid #000000; 
+}
+
+.caixa-body{
+    padding: 2rem;
+}
+
+.vantagem_item{
+    padding-left: 1.25rem;
+}
+

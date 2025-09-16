@@ -1,3 +1,10 @@
+#container_historia,
+#container_estrutura,
+#container_plano_horario,
+#container_contato {
+    scroll-margin-top: 6.1rem;
+}
+
 h1 {
     font-size: 2.1rem;
     text-align: center;
@@ -13,7 +20,7 @@ h1 {
 }
 
 .texto p{
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 #container_historia {

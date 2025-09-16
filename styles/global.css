@@ -17,10 +17,3 @@ body{
     line-height: 1.5rem;
     color: rgb(0, 0, 0);
 }
-
-#container_historia,
-#container_estrutura,
-#container_plano_horario,
-#container_contato {
-    scroll-margin-top: 6.1rem; /* altura do seu cabeçalho fixo */
-}

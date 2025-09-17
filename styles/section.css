@@ -139,3 +139,59 @@ h1 {
 #container_contato .texto{
     margin-bottom: 1rem;
 }
+
+@media (max-width: 1024px) {
+    #container_historia {
+        height: 155vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    #container_estrutura{
+        height: 95vh;
+    }
+    
+    #container_plano_horario{
+        height: 120vh;
+    }
+
+    #container_historia img {
+        float: none;
+    }
+
+    #container_estrutura img{
+    height: 55vh;
+    
+    }
+
+    .imagem.ativo{  
+    opacity: 100;
+    transition: opacity 2s ease;
+    }
+
+    .imagem{
+        margin: 2rem 0rem;
+        position: absolute;
+        z-index: 999;
+        opacity: 0;
+    }
+
+    #butoes{
+    display: flex;
+    position: absolute;
+    gap: 36.75rem;
+    margin: 12.5rem 1rem;
+    z-index: 999;
+    }
+
+    #butoes button{
+        font-size: 1rem;
+    }
+
+    .carrossel{
+    width: 98.9%;
+    }
+}
